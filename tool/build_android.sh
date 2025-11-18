@@ -36,24 +36,24 @@ maybe_set_tool() {
   fi
 }
 
-maybe_set_tool CC_i686_linux_android        "$COMPILER_DIR/i686-linux-android21-clang"
+maybe_set_tool CC_i686_linux_android        "$COMPILER_DIR/i686-linux-android24-clang"
 maybe_set_tool AR_i686_linux_android        "$COMPILER_DIR/llvm-ar"
-maybe_set_tool CARGO_TARGET_I686_LINUX_ANDROID_LINKER "$COMPILER_DIR/i686-linux-android21-clang"
+maybe_set_tool CARGO_TARGET_I686_LINUX_ANDROID_LINKER "$COMPILER_DIR/i686-linux-android24-clang"
 maybe_set_tool CARGO_TARGET_I686_LINUX_ANDROID_AR     "$COMPILER_DIR/llvm-ar"
 
-maybe_set_tool CC_x86_64_linux_android      "$COMPILER_DIR/x86_64-linux-android21-clang"
+maybe_set_tool CC_x86_64_linux_android      "$COMPILER_DIR/x86_64-linux-android24-clang"
 maybe_set_tool AR_x86_64_linux_android      "$COMPILER_DIR/llvm-ar"
-maybe_set_tool CARGO_TARGET_X86_64_LINUX_ANDROID_LINKER "$COMPILER_DIR/x86_64-linux-android21-clang"
+maybe_set_tool CARGO_TARGET_X86_64_LINUX_ANDROID_LINKER "$COMPILER_DIR/x86_64-linux-android24-clang"
 maybe_set_tool CARGO_TARGET_X86_64_LINUX_ANDROID_AR     "$COMPILER_DIR/llvm-ar"
 
-maybe_set_tool CC_armv7_linux_androideabi   "$COMPILER_DIR/armv7a-linux-androideabi21-clang"
+maybe_set_tool CC_armv7_linux_androideabi   "$COMPILER_DIR/armv7a-linux-androideabi24-clang"
 maybe_set_tool AR_armv7_linux_androideabi   "$COMPILER_DIR/llvm-ar"
-maybe_set_tool CARGO_TARGET_ARMV7_LINUX_ANDROIDEABI_LINKER "$COMPILER_DIR/armv7a-linux-androideabi21-clang"
+maybe_set_tool CARGO_TARGET_ARMV7_LINUX_ANDROIDEABI_LINKER "$COMPILER_DIR/armv7a-linux-androideabi24-clang"
 maybe_set_tool CARGO_TARGET_ARMV7_LINUX_ANDROIDEABI_AR     "$COMPILER_DIR/llvm-ar"
 
-maybe_set_tool CC_aarch64_linux_android     "$COMPILER_DIR/aarch64-linux-android21-clang"
+maybe_set_tool CC_aarch64_linux_android     "$COMPILER_DIR/aarch64-linux-android24-clang"
 maybe_set_tool AR_aarch64_linux_android     "$COMPILER_DIR/llvm-ar"
-maybe_set_tool CARGO_TARGET_AARCH64_LINUX_ANDROID_LINKER "$COMPILER_DIR/aarch64-linux-android21-clang"
+maybe_set_tool CARGO_TARGET_AARCH64_LINUX_ANDROID_LINKER "$COMPILER_DIR/aarch64-linux-android24-clang"
 maybe_set_tool CARGO_TARGET_AARCH64_LINUX_ANDROID_AR     "$COMPILER_DIR/llvm-ar"
 
 cd packages/isar_core_ffi
