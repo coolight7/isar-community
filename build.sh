@@ -29,4 +29,5 @@ mkdir -p $output_dir
 
 mkdir -p $output_dir/linux/
 cp $current_dir/target/x86_64-unknown-linux-gnu/release/deps/libisar.so $output_dir/linux/
+cp /lib/x86_64-linux-gnu/libgcc_s.so.1 $output_dir/linux/
 llvm-strip-18 $output_dir/linux/*.so
